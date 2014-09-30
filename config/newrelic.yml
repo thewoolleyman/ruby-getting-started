@@ -3,9 +3,9 @@
 # .NET, PHP, Python and Node applications with deep visibility and low
 # overhead.  For more information, visit www.newrelic.com.
 #
-# Generated September 16, 2014
+# Generated September 30, 2014
 #
-# This configuration file is custom generated for app29625255@heroku.com
+# This configuration file is custom generated for thewoolleyweb.com
 
 
 # Here are the settings that are common to all environments
@@ -15,7 +15,7 @@ common: &default_settings
   # You must specify the license key associated with your New Relic
   # account.  This key binds your Agent's data to your account in the
   # New Relic service.
-  license_key: 'ab34bf821c1cb7ba022741f5620e286736607e11'
+  license_key: 'ff87f3b543af78445447ad2aef4da464266e5f87'
 
   # Agent Enabled (Ruby/Rails Only)
   # Use this setting to force the agent to run or not run.
@@ -49,7 +49,7 @@ common: &default_settings
   # See https://newrelic.com/docs/site/renaming-applications for more details
   # on renaming your New Relic applications.
   #
-  app_name: thewoolleyman-rgs
+  app_name: thewoolleyman-nr-rgs
 
   # When "true", the agent collects performance data about your
   # application and reports this data to the New Relic service at
@@ -192,7 +192,7 @@ development:
   <<: *default_settings
   # Turn on communication to New Relic service in development mode
   monitor_mode: true
-  app_name: thewoolleyman-rgs (Development)
+  app_name: thewoolleyman-nr-rgs (Development)
 
   # Rails Only - when running in Developer Mode, the New Relic Agent will
   # present performance information on the last 100 transactions you have
@@ -221,4 +221,4 @@ production:
 staging:
   <<: *default_settings
   monitor_mode: true
-  app_name: thewoolleyman-rgs (Staging)
+  app_name: thewoolleyman-nr-rgs (Staging)
